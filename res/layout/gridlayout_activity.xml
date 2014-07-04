@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:columnCount="4"
+    android:rowCount="5" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        android:gravity="right|center_vertical"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="÷"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="×"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="ー"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="+"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button5"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="７"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button6"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="８"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button7"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="９"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:scaleType="fitXY"
+        android:src="@drawable/sym_keyboard_delete" />
+
+    <Button
+        android:id="@+id/button9"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="４"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button10"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="５"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button11"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="６"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button12"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="C"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button13"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="１"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button14"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="２"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button15"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="３"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:layout_rowSpan="2"
+        android:text="＝"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button17"
+                android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:text="．"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="left"
+        android:text="０"
+                android:textColor="#FFF"
+        android:textSize="30sp" />
 
 </GridLayout>
